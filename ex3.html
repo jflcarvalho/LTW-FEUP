@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ex3</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ex3 Form</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Data</legend>
+                Name: <input type="text" name="name">
+                <fieldset>Age: <br>
+                    <input type="radio" name="age" value="18">18<br>
+                    <input type="radio" name="age" value="19-35">19-35<br>
+                    <input type="radio" name="age" value="36-48">36-48<br>
+                    <input type="radio" name="age" value=">49">>49
+                </fieldset>
+                <br> Profession: <input type="text" name="profession">
+                <br> Country <select name="country">
+                    <option value="Portugal">Portugal</option>
+                    <option value="USA">USA</option>
+                    <option value="Japan">Japan</option>
+                </select>
+                <fieldset>Interests <br>
+                    <input type="checkbox" name="interest" value="PC"> PC
+                    <input type="checkbox" name="interest" value="TV"> TV
+                    <input type="checkbox" name="interest" value="Play Games"> Play Games
+                </fieldset><br>
+                <label for="textarea">How did you find this Website?</label>
+                <br>
+                <textarea rowa="6" cols="75" id="textarea" name="website"></textarea>
+                <br>
+                <input type="submit" value="Post">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        This is a exercise of first LTW class.
+    </footer>
+</body>
