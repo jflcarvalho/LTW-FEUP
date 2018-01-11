@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Exame 2017-01-26</title>
+    <style>
+        div.widget ul#todo { color: green; } /* R1 */
+        #todo li { color: magenta; } /* R2 */
+        #todo li:first-child { color: cyan; } /* R3 */
+        
+        #todo li:nth-child(2)~li { color: red } /* R4 */
+        #todo li~li { color: blue } /* R5 */
+        li+li+li { color: purple } /* R6 */
+    </style>
+</head>
+
+<body>
+    <div class="widget">
+        <ul id="todo">
+            <li>Buy Bread </li>
+            <li>Learn Guitar </li>
+            <li class="important">Pay Bills </li>
+            <li class="postponed">Wash Car </li>
+        </ul>
+    </div>
+</body>
+
+</html>
